@@ -1,0 +1,85 @@
+<resources>
+    <!-- Apps -->
+    <string name="app_name">BoxForRoot</string>
+    <string name="min_module_vrsion">20230814</string>
+    <string name="apps_count_list">在%s模式下添加了%d个应用</string>
+    <string name="no_apps_count_list">%s模式</string>
+    <string name="ok">确定</string>
+    <string name="for_clash_only">clash仅在redir-host模式下工作</string>
+    <string name="module_not_found">未找到模块</string>
+    <string name="update_module">请更新您的模块 :)\n最低版本: %d</string>
+    <string name="module_repo_url">https://github.com/taamarin/box_for_magisk</string>
+    <string name="release_repo_url">https://github.com/taamarin/box_for_magisk/releases</string>
+
+    <string name="success">成功</string>
+    <string name="failed">失败</string>
+    <string name="home">首页</string>
+    <string name="dashboard">仪表盘</string>
+    <string name="app">应用</string>
+
+    <!-- Setting Dialog-->
+    <string name="select_core">选择核心：</string>
+    <string name="clash_settings">clash设置：</string>
+    <string name="find_procces">查找进程</string>
+    <string name="find_config">查找配置</string>
+    <string name="clash_options">clash选项</string>
+    <string name="unified_delay">统一延迟[meta]</string>
+    <string name="sniffer">嗅探器[meta]</string>
+    <string name="redir_host">重定向主机[meta]</string>
+    <string name="geodata_meta">地理数据[meta]</string>
+    <string name="subscription">订阅</string>
+    <string name="module_settings">模块设置：</string>
+    <string name="cgroup_settings">控制组：</string>
+    <string name="memcg">内存控制组</string>
+    <string name="blkio">块IO</string>
+    <string name="cpuset">CPU集</string>
+    <string name="quic">QUIC</string>
+    <string name="ipv6">IPv6</string>
+    <string name="port_detect">端口检测</string>
+    <string name="crontab">定时任务</string>
+    <string name="geox">地理数据X</string>
+    <string name="networkmode">网络模式</string>
+    <string name="proxymode">代理模式</string>
+    <string name="check_module">检查模块</string>
+    <string name="myip">我的IP</string>
+    <string name="setting">设置</string>
+
+    <!--Setting Dialog-->
+    <string-array name="core_array">
+        <item>clash</item>
+        <item>sing-box</item>
+        <item>xray</item>
+        <item>hysteria</item>
+        <item>v2fly</item>
+    </string-array>
+
+    <string-array name="proc_array">
+        <item>关闭</item>
+        <item>严格</item>
+        <item>始终</item>
+    </string-array>
+
+    <string-array name="conf_array">
+        <item>默认</item>
+        <item>配置2</item>
+        <item>配置3</item>
+    </string-array>
+
+    <string-array name="clash_core_array">
+        <item>premium</item>
+        <item>mihomo</item>
+    </string-array>
+
+    <string-array name="network_array">
+        <item>tproxy</item>
+        <item>redirect</item>
+        <item>enhance</item>
+        <item>mixed</item>
+        <item>tun</item>
+    </string-array>
+
+    <string-array name="proxy_array">
+        <item>白名单</item>
+        <item>黑名单</item>
+    </string-array>
+</resources> 
